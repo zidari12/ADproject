@@ -5,7 +5,7 @@ task: segment  # (str) YOLO task, i.e. detect, segment, classify, pose
 mode: train  # (str) YOLO mode, i.e. train, val, predict, export, track, benchmark
 
 # Train settings -------------------------------------------------------------------------------------------------------
-model: C:/Users/bcw60/OneDrive/Desktop/mydrive/die/runs/segment/train8/weights/last.pt # (str, optional) path to model file, i.e. yolov8n.pt, yolov8n.yaml
+model:  # (str, optional) path to model file, i.e. yolov8n.pt, yolov8n.yaml
 data: C:/Users/bcw60/Downloads/custon_with_wheelchair_seg.v10i.yolov8/data.yaml # (str, optional) path to data file, i.e. coco128.yaml
 epochs: 300  # (int) number of epochs to train for
 time:  # (float, optional) number of hours to train for, overrides epochs if supplied
