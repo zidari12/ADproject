@@ -8,7 +8,7 @@ Usage:
 
 """ 
 옵티마이저 설정
-build_optimizer 함수에서 옵티마이저 추가 및 설정 가능 
+build_optimizer 함수에서 옵티마이저 추가 및 설정 가능  
 """
 
 import math
